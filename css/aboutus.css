@@ -1,0 +1,11 @@
+@media (min-width: 992px) {
+  .about-us-container {
+    background-image: url('images/about-bg.png');
+  }
+  .services {
+    padding-top: 130px;
+  }
+  .item {
+    display: flex;
+  }
+}

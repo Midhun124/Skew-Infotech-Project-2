@@ -1,0 +1,130 @@
+@media (min-width: 992px) {
+  .main-banner {
+    width: 100%;
+    padding-top: 150px;
+  }
+  .left-content {
+    padding: 2%;
+    width: 100%;
+    max-width: 550px;
+  }
+  .lc-hd-one-cnt {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(245, 54, 56);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  .lc-hd-two-cnt {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  .hd-two-di {
+    color: rgb(5, 162, 237);
+  }
+  .hd-two-seo {
+    color: rgb(245, 54, 56);
+  }
+  .lc-dsp-cnt {
+    margin: 40px 0;
+    line-height: 30px;
+  }
+  .lc-dsp-link {
+    text-decoration: none;
+  }
+  .lc-search {
+    position: relative;
+  }
+  .form-control {
+    padding: 20px 30px;
+    background-color: rgb(3, 164, 237);
+    border-radius: 30px;
+  }
+  .lc-sumbit-btn {
+    border: none;
+    background-color: white;
+    color: rgb(245, 54, 56);
+    border-radius: 30px;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    top: 10px;
+    padding: 10px 20px;
+  }
+  .right-content {
+    padding: 2%;
+  }
+}
+@media (max-width: 992px) {
+  .main-banner {
+    width: 100%;
+    padding-top: 20px;
+  }
+  .left-content {
+    padding: 2%;
+    width: 100%;
+    max-width: 550px;
+  }
+  .lc-hd-one-cnt {
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(245, 54, 56);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    margin-bottom: 30px;
+  }
+  .lc-hd-two-cnt {
+    font-size: 40px;
+    font-weight: 800;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+  }
+  .hd-two-di {
+    color: rgb(5, 162, 237);
+  }
+  .hd-two-seo {
+    color: rgb(245, 54, 56);
+  }
+  .lc-dsp-cnt {
+    margin: 20px 0;
+    line-height: 30px;
+  }
+  .lc-dsp-link {
+    text-decoration: none;
+  }
+  .lc-search {
+    display: flex;
+    flex-direction: column;
+  }
+  .form-control {
+    padding: 20px 20px;
+    background-color: rgb(3, 164, 237);
+    border-radius: 30px;
+    font-size: 12px;
+  }
+  .lc-sumbit-btn {
+    width: fit-content;
+    border: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(238, 238, 238);
+    border-radius: 30px;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: start;
+  }
+  .right-content {
+    width: 100%;
+    padding: 2%;
+  }
+  .rc-img-cnt {
+    width: 100%;
+  }
+  .rc-img {
+    width: 100%;
+  }
+}
